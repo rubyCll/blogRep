@@ -2,6 +2,7 @@
     <wb-module deploy-name="cyblog">
         <wb-resource deploy-path="/" source-path="/webapp" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <wb-resource deploy-path="/WEB-INF/lib" source-path="/webapp/WEB-INF/lib/spring"/>
         <property name="context-root" value="cyblog"/>
         <property name="java-output-path" value="/cyblog/classes"/>
     </wb-module>
